@@ -12,4 +12,13 @@ array arr; // масив слів
 
 int new_list(char [], array); // визначення переліку і кількості слів
 
+int main()
+{
+    int i; // кількість слів у рядку
+    puts("enter string:");
+    gets(m); //ввести рядок
+    i=new_list(m,arr);
+    system("pause");
+}
+
 
